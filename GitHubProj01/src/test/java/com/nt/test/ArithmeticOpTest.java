@@ -28,4 +28,13 @@ public class ArithmeticOpTest {
 		int actual=op.sum(a,b);
 		assertEquals(expacted,actual);	
 	}
+	
+	@Test 
+	public void testSumWithNegative()
+	{
+		int a=-10,b=-20;
+		int expacted=-30;
+		int actual=op.sum(a,b);
+		assertEquals(expacted,actual);
+	}
 }
