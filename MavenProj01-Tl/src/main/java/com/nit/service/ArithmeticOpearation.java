@@ -15,4 +15,8 @@ public class ArithmeticOpearation {
 		System.out.println("mul method wants to print");
 		return a*b;
 	}
+	public int div(int a,int b)
+	{
+		return a/b;
+	}
 }
