@@ -12,6 +12,7 @@ public class ArithmeticOpearation {
 	}
 	public int mul(int a,int b)
 	{
+		System.out.println("mul method");
 		return a*b;
 	}
 }
