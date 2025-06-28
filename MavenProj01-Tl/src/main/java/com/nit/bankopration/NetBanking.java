@@ -6,4 +6,9 @@ public class NetBanking {
 	{
 		return "Payment done by NetBanking";
 	}
+	
+	public String upi()
+	{
+		return "Payment done by Upi";
+	}
 }
